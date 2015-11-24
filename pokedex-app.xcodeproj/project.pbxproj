@@ -14,6 +14,7 @@
 		4913317E1C039BE500CB7510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4913317C1C039BE500CB7510 /* LaunchScreen.storyboard */; };
 		498F788B1C039E6700BA07D1 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 498F788A1C039E6700BA07D1 /* pokemon.csv */; };
 		498F788E1C03A9CA00BA07D1 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498F788D1C03A9CA00BA07D1 /* Pokemon.swift */; };
+		498F78901C03DF6600BA07D1 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 498F788F1C03DF6600BA07D1 /* music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4913317F1C039BE500CB7510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		498F788A1C039E6700BA07D1 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		498F788D1C03A9CA00BA07D1 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		498F788F1C03DF6600BA07D1 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		491331721C039BE500CB7510 /* pokedex-app */ = {
 			isa = PBXGroup;
 			children = (
+				498F788F1C03DF6600BA07D1 /* music.mp3 */,
 				498F788C1C03A9A900BA07D1 /* Model */,
 				491331731C039BE500CB7510 /* AppDelegate.swift */,
 				491331751C039BE500CB7510 /* ViewController.swift */,
@@ -136,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498F78901C03DF6600BA07D1 /* music.mp3 in Resources */,
 				4913317E1C039BE500CB7510 /* LaunchScreen.storyboard in Resources */,
 				4913317B1C039BE500CB7510 /* Assets.xcassets in Resources */,
 				498F788B1C039E6700BA07D1 /* pokemon.csv in Resources */,
