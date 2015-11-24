@@ -15,6 +15,7 @@
 		498F788B1C039E6700BA07D1 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 498F788A1C039E6700BA07D1 /* pokemon.csv */; };
 		498F788E1C03A9CA00BA07D1 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498F788D1C03A9CA00BA07D1 /* Pokemon.swift */; };
 		498F78901C03DF6600BA07D1 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 498F788F1C03DF6600BA07D1 /* music.mp3 */; };
+		498F78931C03F0D800BA07D1 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498F78921C03F0D800BA07D1 /* PokeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		498F788A1C039E6700BA07D1 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		498F788D1C03A9CA00BA07D1 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		498F788F1C03DF6600BA07D1 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		498F78921C03F0D800BA07D1 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				498F788F1C03DF6600BA07D1 /* music.mp3 */,
 				498F788C1C03A9A900BA07D1 /* Model */,
+				498F78911C03F0AE00BA07D1 /* View */,
 				491331731C039BE500CB7510 /* AppDelegate.swift */,
 				491331751C039BE500CB7510 /* ViewController.swift */,
 				491331771C039BE500CB7510 /* Main.storyboard */,
@@ -79,6 +82,14 @@
 				498F788D1C03A9CA00BA07D1 /* Pokemon.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		498F78911C03F0AE00BA07D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				498F78921C03F0D800BA07D1 /* PokeCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498F78931C03F0D800BA07D1 /* PokeCell.swift in Sources */,
 				491331761C039BE500CB7510 /* ViewController.swift in Sources */,
 				491331741C039BE500CB7510 /* AppDelegate.swift in Sources */,
 				498F788E1C03A9CA00BA07D1 /* Pokemon.swift in Sources */,
