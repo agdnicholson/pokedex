@@ -200,6 +200,9 @@
                                             <constraint firstAttribute="height" constant="30" id="U7J-Hw-2aj"/>
                                         </constraints>
                                         <state key="normal" image="back-button-new"/>
+                                        <connections>
+                                            <action selector="backButtonPressed:" destination="9sV-O2-eh1" eventType="touchUpInside" id="5KV-F3-RKB"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -239,7 +242,7 @@
                                                 <rect key="frame" x="125" y="0.0" width="435" height="212"/>
                                                 <string key="text">They can fly around the world in a single heartbeaht but not before midnight when the clock strikes two am in the monrning before a donkey comes over the bridge and looks at the loverboy in the midnight hour for five days. Then he says. Hehlj I like that. Ok thanks. Goodbye. Bye bye.</string>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -405,7 +408,18 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="baseAttackLbl" destination="0oh-Cn-Htc" id="ZTN-N1-p1y"/>
+                        <outlet property="currentEvoImg" destination="7z0-2q-c6E" id="nDw-NP-TjW"/>
+                        <outlet property="defenseLbl" destination="nOD-dO-fOP" id="5Lh-NA-AQC"/>
+                        <outlet property="descriptionLbl" destination="fuP-Ij-EZa" id="3pv-17-3Iq"/>
+                        <outlet property="evoLbl" destination="0oh-Cn-Htc" id="qag-yc-Cfj"/>
+                        <outlet property="heightLbl" destination="eka-N2-dDe" id="s5Z-lO-jwy"/>
+                        <outlet property="mainImg" destination="TTE-L8-sSu" id="T6m-Hz-WZk"/>
                         <outlet property="nameLbl" destination="fGS-vR-ojn" id="qBQ-ro-fHI"/>
+                        <outlet property="nextEvoImg" destination="1s0-5k-09j" id="rzU-Op-cWY"/>
+                        <outlet property="pokedexIdLbl" destination="tTE-wf-k2w" id="7Xf-oU-Pcw"/>
+                        <outlet property="typeLbl" destination="a3c-SR-cr5" id="FjR-jH-D6S"/>
+                        <outlet property="weightLbl" destination="0oh-Cn-Htc" id="Nc3-Ya-emO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0fc-pm-hFc" userLabel="First Responder" sceneMemberID="firstResponder"/>
